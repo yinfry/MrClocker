@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import { App } from './App.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
@@ -16,9 +17,5 @@ const Boton = ({text}) => {
 }
 
 root.render(
-  <React.Fragment>
-    <Boton text = "Mira" />
-    <Boton text = "mamá" />
-    <Boton text = "sin manos" />
-  </React.Fragment>
+    <App/>
 )

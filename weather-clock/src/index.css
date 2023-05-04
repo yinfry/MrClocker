@@ -1,9 +1,15 @@
 body {
     margin: 0;
-    position: relative;
     background: linear-gradient(180deg, #E5B3B3 0%, rgba(237, 20, 33, 0) 100%), rgba(100, 29, 112, 0.6);
+    font-family: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.app {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    flex-direction: column;
+    gap: 0.5em;
 }
 
